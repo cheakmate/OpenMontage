@@ -579,7 +579,7 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
   }
   if (cut.type === "stat_card" && cut.stat) {
     return maybeWrapWithBg(
-      <StatCard stat={cut.stat} subtitle={cut.subtitle} accentColor={accent} backgroundColor={bgColor} />
+      <StatCard stat={cut.stat} subtitle={cut.subtitle} color={textColor} accentColor={accent} backgroundColor={bgColor} />
     );
   }
   if (cut.type === "callout" && cut.text) {
@@ -602,7 +602,13 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
   }
   if (cut.type === "hero_title" && cut.text) {
     return maybeWrapWithBg(
-      <HeroTitle title={cut.text} subtitle={cut.heroSubtitle || cut.subtitle} />
+      <HeroTitle
+        title={cut.text}
+        subtitle={cut.heroSubtitle || cut.subtitle}
+        accentColor={accent}
+        backgroundColor={bgColor === "transparent" ? undefined : bgColor}
+        textColor={textColor}
+      />
     );
   }
   if (cut.type === "terminal_scene" && cut.steps) {

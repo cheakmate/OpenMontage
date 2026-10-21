@@ -103,6 +103,22 @@ export const THEMES: Record<string, ThemeConfig> = {
     captionHighlightColor: "#FFB347",
     captionBackgroundColor: "rgba(10, 10, 26, 0.8)",
   },
+  "warm-editorial-light": {
+    primaryColor: "#E4572E",
+    accentColor: "#E4572E",
+    backgroundColor: "#FAF7F2",
+    surfaceColor: "#F3EEE6",
+    textColor: "#1F2937",
+    mutedTextColor: "#6B6459",
+    headingFont: "Space Grotesk",
+    bodyFont: "Inter",
+    monoFont: "JetBrains Mono",
+    chartColors: ["#E4572E", "#2E86AB", "#F4A259", "#5B8E7D", "#8D5A97", "#C1292E"],
+    springConfig: { damping: 14, stiffness: 100, mass: 1 },
+    transitionDuration: 0.4,
+    captionHighlightColor: "#E4572E",
+    captionBackgroundColor: "rgba(250, 247, 242, 0.9)",
+  },
 };
 
 // Default theme when none is specified — uses the existing dark style for backwards compatibility

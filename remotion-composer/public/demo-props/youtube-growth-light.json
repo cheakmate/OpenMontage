@@ -1,0 +1,135 @@
+{
+ "theme": "warm-editorial-light",
+ "cuts": [
+  {
+   "id": "yt-hook",
+   "source": "",
+   "type": "hero_title",
+   "in_seconds": 0,
+   "out_seconds": 3.5,
+   "text": "YouTube'da Büyümek",
+   "subtitle": "Sayılarla: veriye dayalı yol haritası",
+   "backgroundColor": "#FAF7F2",
+   "color": "#1F2937"
+  },
+  {
+   "id": "yt-audience",
+   "source": "",
+   "type": "stat_card",
+   "in_seconds": 3.5,
+   "out_seconds": 7.5,
+   "stat": "2.5B+",
+   "subtitle": "Aylık aktif kullanıcı — muazzam bir izleyici havuzu",
+   "accentColor": "#E4572E",
+   "backgroundColor": "#FAF7F2"
+  },
+  {
+   "id": "yt-competition",
+   "source": "",
+   "type": "stat_card",
+   "in_seconds": 7.5,
+   "out_seconds": 11.5,
+   "stat": "500 saat",
+   "subtitle": "Her dakika yüklenen video — dikkat çekmek veri gerektirir",
+   "accentColor": "#2E86AB",
+   "backgroundColor": "#FAF7F2"
+  },
+  {
+   "id": "yt-discovery",
+   "source": "",
+   "type": "bar_chart",
+   "in_seconds": 11.5,
+   "out_seconds": 17.5,
+   "title": "İzleyici nereden gelir? (illustratif)",
+   "chartData": [
+    {
+     "label": "Shorts",
+     "value": 45
+    },
+    {
+     "label": "Arama",
+     "value": 25
+    },
+    {
+     "label": "Öneriler",
+     "value": 20
+    },
+    {
+     "label": "Aboneler",
+     "value": 10
+    }
+   ],
+   "chartColors": [
+    "#E4572E",
+    "#2E86AB",
+    "#F4A259",
+    "#5B8E7D"
+   ],
+   "showGrid": true,
+   "showValues": true,
+   "backgroundColor": "#FAF7F2"
+  },
+  {
+   "id": "yt-retention",
+   "source": "",
+   "type": "pie_chart",
+   "in_seconds": 17.5,
+   "out_seconds": 23.5,
+   "title": "İzleyici tutma eğrisi (illustratif)",
+   "chartData": [
+    {
+     "label": "İlk 30 saniye",
+     "value": 60
+    },
+    {
+     "label": "Orta bölüm",
+     "value": 25
+    },
+    {
+     "label": "Final",
+     "value": 15
+    }
+   ],
+   "chartColors": [
+    "#E4572E",
+    "#F4A259",
+    "#2E86AB"
+   ],
+   "donut": true,
+   "centerLabel": "İlk 30 sn",
+   "centerValue": "%60",
+   "showLegend": true,
+   "backgroundColor": "#FAF7F2"
+  },
+  {
+   "id": "yt-close",
+   "source": "",
+   "type": "text_card",
+   "in_seconds": 23.5,
+   "out_seconds": 28,
+   "text": "Kanal büyümesi = veri + tutarlılık.",
+   "color": "#1F2937",
+   "backgroundColor": "#FAF7F2"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "section_title",
+   "in_seconds": 12.2,
+   "out_seconds": 15.2,
+   "text": "Keşif",
+   "subtitle": "Trafiğin kaynağını bil",
+   "accentColor": "#E4572E"
+  },
+  {
+   "type": "stat_reveal",
+   "in_seconds": 18.2,
+   "out_seconds": 21.2,
+   "text": "%60",
+   "subtitle": "İzleyicinin kararı ilk 30 saniyede",
+   "accentColor": "#E4572E"
+  }
+ ],
+ "captions": [],
+ "audio": {}
+}
