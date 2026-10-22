@@ -1,0 +1,49 @@
+# MLP Neurons Flow
+
+> 22 nodes · cohesion 0.13
+
+## Key Concepts
+
+- **.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py** (9 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **MLPNeuronsFlow** (7 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **MLPExpansion3D** (5 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **NeuralNetworkBasic** (4 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.construct()** (4 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.create_connections()** (4 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **value_to_color()** (4 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.create_3d_cluster()** (3 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.create_layer()** (3 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.play_data_flow()** (3 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Scene** (3 connections)
+- **.construct()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **.construct()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **MLP/Feedforward Neurons Flow Visualization Shows data flowing through neurons…** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Create a vertical layer of neurons.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Create sparse connections between two layers.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Animate data flowing through the network.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Simple neural network visualization with multiple layers.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Map a value to a color based on its sign and magnitude.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **3D visualization of MLP expansion from d to 4d dimensions.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Create a 3D cluster of points/neurons.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+- **Visualizes data flowing through MLP/Feedforward neurons. Shows the expansion…** (1 connections) — `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+
+## Relationships
+
+- [Audio FFT Extraction](Audio_FFT_Extraction.md) (1 shared connections)
+- [ManimGL ML Examples](ManimGL_ML_Examples.md) (1 shared connections)
+- [Cube Projection Visualization](Cube_Projection_Visualization.md) (1 shared connections)
+- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+
+## Source Files
+
+- `.claude/skills/manimgl-best-practices/examples/mlp_neurons_flow.py`
+
+## Audit Trail
+
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
+- AMBIGUOUS: 0 (0%)
+
+---
+
+*Part of the graphify knowledge wiki. See [index](index.md) to navigate.*
