@@ -6,20 +6,33 @@ import {
   useVideoConfig,
 } from "remotion";
 
-interface HeroTitleProps {
+type HeroTitleProps = {
   title: string;
   subtitle?: string;
+  /** Color of the leading accent characters and the underline. */
   accentColor?: string;
-  backgroundColor?: string;
+  /** Color of the remaining title characters. Pass the theme's textColor. */
   textColor?: string;
-}
+  /** Subtitle color. */
+  subtitleColor?: string;
+  /**
+   * Scrim painted behind the title so it separates from whatever is underneath.
+   * Defaults to a dark wash; a light theme must pass a light one, otherwise the
+   * scrim darkens the backdrop and cancels out the theme's dark text.
+   */
+  scrimBackground?: string;
+};
+
+const DEFAULT_SCRIM =
+  "radial-gradient(ellipse at center, rgba(15,23,42,0.35) 0%, rgba(15,23,42,0.55) 100%)";
 
 export const HeroTitle: React.FC<HeroTitleProps> = ({
   title,
   subtitle,
   accentColor = "#22D3EE",
-  backgroundColor,
   textColor = "#F8FAFC",
+  subtitleColor = "#A78BFA",
+  scrimBackground = DEFAULT_SCRIM,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -27,18 +40,14 @@ export const HeroTitle: React.FC<HeroTitleProps> = ({
   // Staggered letter-by-letter spring
   const titleChars = title.split("");
 
-  // Dark-theme gradient only when the cut does not specify a light custom background
-  const isDarkDefault =
-    !backgroundColor || backgroundColor === "#0F172A" || backgroundColor === "#0f172a";
-  const bgStyle = isDarkDefault
-    ? {
-        background:
-          "radial-gradient(ellipse at center, rgba(15,23,42,0.35) 0%, rgba(15,23,42,0.55) 100%)",
-      }
-    : { backgroundColor };
-
   return (
-    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", ...bgStyle }}>
+    <AbsoluteFill
+      style={{
+        justifyContent: "center",
+        alignItems: "center",
+        background: scrimBackground,
+      }}
+    >
       <div style={{ textAlign: "center", maxWidth: "85%" }}>
         {/* Main title with per-character spring */}
         <div
@@ -91,7 +100,7 @@ export const HeroTitle: React.FC<HeroTitleProps> = ({
               }),
               fontSize: 28,
               fontWeight: 400,
-              color: accentColor,
+              color: subtitleColor,
               fontFamily: "Space Grotesk, Inter, system-ui, sans-serif",
               letterSpacing: "0.1em",
               textTransform: "uppercase",
