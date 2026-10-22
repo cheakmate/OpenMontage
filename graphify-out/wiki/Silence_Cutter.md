@@ -24,9 +24,10 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (9 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (4 shared connections)
-- [Video Review Tooling](Video_Review_Tooling.md) (4 shared connections)
+- [Core Utilities](Core_Utilities.md) (6 shared connections)
+- [Character Animation](Character_Animation.md) (4 shared connections)
+- [FFmpeg Tests](FFmpeg_Tests.md) (4 shared connections)
+- [Tool Testing](Tool_Testing.md) (3 shared connections)
 
 ## Source Files
 

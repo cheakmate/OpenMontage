@@ -1,43 +1,37 @@
 # Remotion Media Staging Tests
 
-> 18 nodes · cohesion 0.14
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **test_remotion_media_staging.py** (12 connections) — `tests/tools/test_remotion_media_staging.py`
-- **._mirror_public_dir()** (8 connections) — `tools/video/video_compose.py`
-- **._file_uri_to_raw_path()** (5 connections) — `tools/video/video_compose.py`
-- **test_file_uri_to_raw_path()** (4 connections) — `tests/tools/test_remotion_media_staging.py`
-- **test_mirror_is_read_only_toward_source()** (4 connections) — `tests/tools/test_remotion_media_staging.py`
-- **test_mirror_never_clobbers_staged_media()** (4 connections) — `tests/tools/test_remotion_media_staging.py`
-- **test_mirror_public_dir_exposes_prestaged_assets()** (4 connections) — `tests/tools/test_remotion_media_staging.py`
-- **test_unc_authority_still_treated_as_network_path()** (4 connections) — `tests/tools/test_remotion_media_staging.py`
-- **visit()** (4 connections) — `tools/video/video_compose.py`
-- **test_mirror_missing_source_is_noop()** (3 connections) — `tests/tools/test_remotion_media_staging.py`
-- **parametrize** (1 connections)
-- **Regression coverage for Remotion media staging (`_stage_remotion_media`). Two…** (1 connections) — `tests/tools/test_remotion_media_staging.py`
-- **Cleanup deletes the staging dir; the real public/ must survive.** (1 connections) — `tests/tools/test_remotion_media_staging.py`
-- **A genuine UNC host must not be mistaken for a drive path.** (1 connections) — `tests/tools/test_remotion_media_staging.py`
-- **anime_scene.images[] / screenshot_scene.backgroundImage are staticFile() refs…** (1 connections) — `tests/tools/test_remotion_media_staging.py`
-- **Staged render media wins over a same-named entry in public/.** (1 connections) — `tests/tools/test_remotion_media_staging.py`
-- **Convert a ``file:`` URI to a raw filesystem path string. Handles the forms…** (1 connections) — `tools/video/video_compose.py`
-- **Link the real ``public/`` tree into a render-scoped ``--public-dir``.…** (1 connections) — `tools/video/video_compose.py`
+- **test_stage_remotion_media.py** (14 connections) — `tests/tools/test_stage_remotion_media.py`
+- **_stage()** (9 connections) — `tests/tools/test_stage_remotion_media.py`
+- **media_file()** (3 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_background_image_is_staged()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_background_video_is_staged()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_missing_local_file_pass_through()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_non_media_keys_are_left_alone()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_remote_urls_pass_through()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **test_same_source_staged_once_across_keys()** (2 connections) — `tests/tools/test_stage_remotion_media.py`
+- **fixture** (1 connections)
+- **Path** (1 connections)
+- **Focused tests for Remotion media staging key coverage.…** (1 connections) — `tests/tools/test_stage_remotion_media.py`
 
 ## Relationships
 
-- [Cinematic Remotion Adapter](Cinematic_Remotion_Adapter.md) (13 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (2 shared connections)
-- [Project Init Validation](Project_Init_Validation.md) (1 shared connections)
+- [Video Composition](Video_Composition.md) (3 shared connections)
+- [Core Utilities](Core_Utilities.md) (2 shared connections)
+- [Lyria BGM Generation](Lyria_BGM_Generation.md) (1 shared connections)
+- [Project Init](Project_Init.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/tools/test_remotion_media_staging.py`
-- `tools/video/video_compose.py`
+- `tests/tools/test_stage_remotion_media.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (84%)
-- INFERRED: 6 (16%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

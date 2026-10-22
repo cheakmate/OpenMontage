@@ -29,10 +29,9 @@
 
 ## Relationships
 
-- [Audio FFT Extraction](Audio_FFT_Extraction.md) (1 shared connections)
-- [ManimGL ML Examples](ManimGL_ML_Examples.md) (1 shared connections)
-- [Cube Projection Visualization](Cube_Projection_Visualization.md) (1 shared connections)
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Manim 3D](Manim_3D.md) (2 shared connections)
+- [Audio Analysis](Audio_Analysis.md) (1 shared connections)
+- [MLP Network Visualization](MLP_Network_Visualization.md) (1 shared connections)
 
 ## Source Files
 

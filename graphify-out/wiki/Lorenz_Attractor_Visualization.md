@@ -1,38 +1,37 @@
 # Lorenz Attractor Visualization
 
-> 15 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py** (7 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **LorenzAttractor** (4 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **LorenzSimple** (4 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **lorenz_system()** (4 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **.construct()** (4 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **ode_solution_points()** (4 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **.construct()** (3 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **update_dots()** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **InteractiveScene** (1 connections)
-- **Scene** (1 connections)
-- **Lorenz Attractor Visualization Demonstrates the classic Lorenz strange…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **The Lorenz system of differential equations. These equations model atmospheric…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **A simpler version of the Lorenz attractor without equations overlay. Good for…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **Solve an ODE system and return the trajectory points. Args: function: The ODE…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
-- **Visualizes the Lorenz attractor with multiple trajectories. Shows how nearby…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
+- **.claude/skills/manimce-best-practices/examples/lorenz_attractor.py** (8 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **LorenzAttractor** (4 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **LorenzAttractorSimple** (4 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **lorenz_system()** (4 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **ode_solution_points()** (4 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **.construct()** (3 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **.construct()** (3 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **ThreeDScene** (2 connections)
+- **Lorenz Attractor - Converted from 3b1b ManimGL to ManimCE Original:…** (1 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **Simplified version with just one trajectory and traced path. Better for…** (1 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **The Lorenz system of differential equations.** (1 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **Solve ODE and return solution points.** (1 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
+- **Visualization of the Lorenz attractor - a classic chaotic system. Shows…** (1 connections) — `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
 
 ## Relationships
 
-- [Lorenz Attractor ManimCE](Lorenz_Attractor_ManimCE.md) (1 shared connections)
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Audio Analysis](Audio_Analysis.md) (1 shared connections)
+- [Manim Templates](Manim_Templates.md) (1 shared connections)
+- [Lorenz Attractor Viz](Lorenz_Attractor_Viz.md) (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/manimgl-best-practices/examples/lorenz_attractor.py`
+- `.claude/skills/manimce-best-practices/examples/lorenz_attractor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (85%)
-- INFERRED: 3 (15%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

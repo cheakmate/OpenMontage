@@ -1,29 +1,60 @@
 # Tool Contract Tests
 
-> 7 nodes · cohesion 0.48
+> 38 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TestPhase2ToolContracts** (8 connections) — `tests/contracts/test_phase2_contracts.py`
-- **parametrize** (5 connections)
-- **.test_dry_run_returns_dict()** (2 connections) — `tests/contracts/test_phase2_contracts.py`
-- **.test_execute_is_implemented()** (2 connections) — `tests/contracts/test_phase2_contracts.py`
-- **.test_get_info_returns_valid_dict()** (2 connections) — `tests/contracts/test_phase2_contracts.py`
-- **.test_has_required_identity()** (2 connections) — `tests/contracts/test_phase2_contracts.py`
-- **.test_inherits_base_tool()** (2 connections) — `tests/contracts/test_phase2_contracts.py`
+- **HunyuanCloudVideo** (98 connections) — `tools/video/hunyuan_cloud_video.py`
+- **TestContract** (25 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **TestSchemaValidation** (14 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **TestSupports** (6 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_dry_run_returns_dict()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_estimate_cost_returns_float()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_execution_mode_is_async()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_get_info_returns_dict()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_agent_skills()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_capabilities()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_fallbacks()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_input_schema()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_install_instructions()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_required_identity()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_resource_profile()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_retry_policy()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_side_effects()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_has_user_visible_verification()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_status_available_with_keys()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_status_unavailable_without_keys()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_logo_add_accepts_0_and_1()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_logo_add_rejects_other_values()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_model_accepts_valid_values()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_model_rejects_invalid_values()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- **.test_operation_accepts_valid_values()** (2 connections) — `tests/contracts/test_hunyuan_cloud_video.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (3 shared connections)
+- [Text-to-Video Testing](Text-to-Video_Testing.md) (18 shared connections)
+- [Auth Header Testing](Auth_Header_Testing.md) (12 shared connections)
+- [Core Utilities](Core_Utilities.md) (11 shared connections)
+- [Fake Response Handler](Fake_Response_Handler.md) (8 shared connections)
+- [Tool Testing](Tool_Testing.md) (7 shared connections)
+- [Idempotency Key Tests](Idempotency_Key_Tests.md) (7 shared connections)
+- [Tool Execution](Tool_Execution.md) (2 shared connections)
+- [Error Helper Tests](Error_Helper_Tests.md) (2 shared connections)
+- [Video Selector](Video_Selector.md) (1 shared connections)
+- [Safe Error Tests](Safe_Error_Tests.md) (1 shared connections)
+- [Atlas Tool Tests](Atlas_Tool_Tests.md) (1 shared connections)
+- [Character Animation](Character_Animation.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/contracts/test_phase2_contracts.py`
+- `tests/contracts/test_hunyuan_cloud_video.py`
+- `tools/video/hunyuan_cloud_video.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 116 (83%)
+- INFERRED: 24 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

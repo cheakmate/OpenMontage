@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [Storyboard Frame Parser](Storyboard_Frame_Parser.md) (8 shared connections)
+- [Storyboard Parser](Storyboard_Parser.md) (8 shared connections)
 
 ## Source Files
 

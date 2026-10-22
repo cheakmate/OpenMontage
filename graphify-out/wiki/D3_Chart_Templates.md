@@ -20,7 +20,7 @@
 
 ## Relationships
 
-- [Remotion Title Card](Remotion_Title_Card.md) (4 shared connections)
+- [Remotion Assets](Remotion_Assets.md) (4 shared connections)
 
 ## Source Files
 

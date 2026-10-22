@@ -26,9 +26,9 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (3 shared connections)
-- [Cinematic Remotion Adapter](Cinematic_Remotion_Adapter.md) (2 shared connections)
-- [Project Init Validation](Project_Init_Validation.md) (1 shared connections)
+- [Core Utilities](Core_Utilities.md) (3 shared connections)
+- [Video Composition](Video_Composition.md) (2 shared connections)
+- [Project Init](Project_Init.md) (1 shared connections)
 
 ## Source Files
 

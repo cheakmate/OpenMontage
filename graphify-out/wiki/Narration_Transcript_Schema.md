@@ -19,9 +19,9 @@
 
 ## Relationships
 
-- [Video Analysis Schema](Video_Analysis_Schema.md) (1 shared connections)
-- [Creative Seeds Schema](Creative_Seeds_Schema.md) (1 shared connections)
-- [Scene Metadata Schema](Scene_Metadata_Schema.md) (1 shared connections)
+- [Content Analysis Schema](Content_Analysis_Schema.md) (1 shared connections)
+- [Creative Differentiation Schema](Creative_Differentiation_Schema.md) (1 shared connections)
+- [Media Properties Schema](Media_Properties_Schema.md) (1 shared connections)
 
 ## Source Files
 

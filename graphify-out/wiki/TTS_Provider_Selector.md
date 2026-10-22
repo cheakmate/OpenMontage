@@ -1,6 +1,6 @@
 # TTS Provider Selector
 
-> 19 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **._providers()** (8 connections) — `tools/audio/tts_selector.py`
 - **._select_best_tool()** (8 connections) — `tools/audio/tts_selector.py`
 - **Any** (7 connections)
-- **test_tts_selector_routes_to_fal_provider()** (5 connections) — `tests/tools/test_fal_elevenlabs_tts.py`
 - **._adapt_inputs()** (5 connections) — `tools/audio/tts_selector.py`
 - **.estimate_cost()** (5 connections) — `tools/audio/tts_selector.py`
 - **._prepare_task_context()** (5 connections) — `tools/audio/tts_selector.py`
@@ -26,27 +25,27 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (15 shared connections)
-- [Fish Audio TTS Tests](Fish_Audio_TTS_Tests.md) (3 shared connections)
-- [ElevenLabs TTS Tests](ElevenLabs_TTS_Tests.md) (3 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (3 shared connections)
-- [Provider Scoring](Provider_Scoring.md) (3 shared connections)
-- [TTS Provider Tests](TTS_Provider_Tests.md) (2 shared connections)
+- [Core Utilities](Core_Utilities.md) (9 shared connections)
+- [Fal TTS Testing](Fal_TTS_Testing.md) (3 shared connections)
+- [Fish Audio TTS](Fish_Audio_TTS.md) (3 shared connections)
+- [Tool Execution](Tool_Execution.md) (3 shared connections)
+- [Path Scoring](Path_Scoring.md) (3 shared connections)
+- [Dashscope Registry Tests](Dashscope_Registry_Tests.md) (2 shared connections)
 - [Tool Contract Tests](Tool_Contract_Tests.md) (2 shared connections)
-- [Provider Contract Tests](Provider_Contract_Tests.md) (2 shared connections)
-- [DashScope TTS Tests](DashScope_TTS_Tests.md) (1 shared connections)
-- [Tool Registry Discovery Tests](Tool_Registry_Discovery_Tests.md) (1 shared connections)
-- [Image Selector Tests](Image_Selector_Tests.md) (1 shared connections)
+- [Tool Testing](Tool_Testing.md) (2 shared connections)
+- [Character Animation](Character_Animation.md) (2 shared connections)
+- [Provider Refresh](Provider_Refresh.md) (2 shared connections)
+- [Tool Registry](Tool_Registry.md) (1 shared connections)
+- [Tool Contracts](Tool_Contracts.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/tools/test_fal_elevenlabs_tts.py`
 - `tools/audio/tts_selector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (85%)
-- INFERRED: 11 (15%)
+- EXTRACTED: 59 (84%)
+- INFERRED: 11 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

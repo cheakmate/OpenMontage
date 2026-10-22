@@ -20,11 +20,11 @@
 
 ## Relationships
 
-- [Seedance Ark Video](Seedance_Ark_Video.md) (13 shared connections)
-- [Ark Task API](Ark_Task_API.md) (11 shared connections)
-- [Input Safety Tests](Input_Safety_Tests.md) (2 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
-- [Provider Resilience Tests](Provider_Resilience_Tests.md) (1 shared connections)
+- [Seedance Video Provider](Seedance_Video_Provider.md) (13 shared connections)
+- [Ark Tool Operations](Ark_Tool_Operations.md) (11 shared connections)
+- [Input Safety Testing](Input_Safety_Testing.md) (2 shared connections)
+- [Core Utilities](Core_Utilities.md) (1 shared connections)
+- [API Testing](API_Testing.md) (1 shared connections)
 
 ## Source Files
 

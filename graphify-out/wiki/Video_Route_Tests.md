@@ -18,11 +18,10 @@
 
 ## Relationships
 
-- [Atlas Video Provider Tests](Atlas_Video_Provider_Tests.md) (8 shared connections)
-- [Seedance Payload Builder](Seedance_Payload_Builder.md) (2 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
-- [API Contract Tests](API_Contract_Tests.md) (1 shared connections)
-- [Atlas Image Routes](Atlas_Image_Routes.md) (1 shared connections)
+- [Atlas Video Tests](Atlas_Video_Tests.md) (8 shared connections)
+- [Atlas Provider Tests](Atlas_Provider_Tests.md) (2 shared connections)
+- [Video Tool Tests](Video_Tool_Tests.md) (2 shared connections)
+- [Atlas Image Provider](Atlas_Image_Provider.md) (1 shared connections)
 
 ## Source Files
 

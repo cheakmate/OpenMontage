@@ -29,10 +29,10 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (2 shared connections)
-- [Lyria BGM Generator](Lyria_BGM_Generator.md) (2 shared connections)
-- [Scene Pacing Verification](Scene_Pacing_Verification.md) (1 shared connections)
-- [ManimGL ML Examples](ManimGL_ML_Examples.md) (1 shared connections)
+- [Core Utilities](Core_Utilities.md) (2 shared connections)
+- [Lyria BGM Generation](Lyria_BGM_Generation.md) (2 shared connections)
+- [Hexagon Cube Visualization](Hexagon_Cube_Visualization.md) (1 shared connections)
+- [MLP Network Visualization](MLP_Network_Visualization.md) (1 shared connections)
 
 ## Source Files
 

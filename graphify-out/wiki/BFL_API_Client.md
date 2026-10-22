@@ -1,49 +1,52 @@
 # BFL API Client
 
-> 71 nodes · cohesion 0.05
+> 22 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.agents/skills/bfl-api/references/code-examples/typescript-client.ts** (15 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.claude/skills/bfl-api/references/code-examples/typescript-client.ts** (15 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **BFLClient** (13 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **BFLClient** (13 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **BFLError** (9 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **BFLError** (9 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.generate()** (7 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.handleResponse()** (7 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.generate()** (7 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.handleResponse()** (7 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **Semaphore** (5 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **ValidationError** (5 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **Semaphore** (5 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **ValidationError** (5 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.poll()** (5 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.requestWithRetry()** (5 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.submitAndPoll()** (5 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.poll()** (5 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.requestWithRetry()** (5 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **.submitAndPoll()** (5 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **AuthenticationError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **GenerationError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **InsufficientCreditsError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **RateLimitError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- **AuthenticationError** (4 connections) — `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
-- *... and 46 more nodes in this community*
+- **.agents/skills/bfl-api/references/code-examples/python-client.py** (20 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **BFLError** (10 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **RateLimitError** (5 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **ValidationError** (5 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **hmac** (5 connections)
+- **AuthenticationError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **InsufficientCreditsError** (4 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **GenerationError** (3 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **verify_webhook_signature()** (3 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **verify_webhook_signature()** (3 connections) — `.claude/skills/bfl-api/references/code-examples/python-client.py`
+- **.__init__()** (2 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **.__init__()** (2 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **concurrent_futures** (2 connections)
+- **Exception** (1 connections)
+- **BFL FLUX API Python Client A complete, production-ready Python client for the…** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Base exception for BFL API errors.** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Verify a webhook signature from BFL. Args: payload: Raw request body signature:…** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **API key or authentication issue.** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Account needs more credits.** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Too many concurrent requests.** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Invalid request parameters.** (1 connections) — `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- **Verify a webhook signature from BFL. Args: payload: Raw request body signature:…** (1 connections) — `.claude/skills/bfl-api/references/code-examples/python-client.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [BFL Image Generation](BFL_Image_Generation.md) (9 shared connections)
+- [Tool Testing](Tool_Testing.md) (4 shared connections)
+- [BFL API Python Client](BFL_API_Python_Client.md) (3 shared connections)
+- [Three.js Asset Catalog](Three.js_Asset_Catalog.md) (1 shared connections)
+- [Media Source Adapters](Media_Source_Adapters.md) (1 shared connections)
+- [Core Utilities](Core_Utilities.md) (1 shared connections)
+- [Delivery Promise Classifier](Delivery_Promise_Classifier.md) (1 shared connections)
+- [Event Stream](Event_Stream.md) (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/bfl-api/references/code-examples/typescript-client.ts`
-- `.claude/skills/bfl-api/references/code-examples/typescript-client.ts`
+- `.agents/skills/bfl-api/references/code-examples/python-client.py`
+- `.claude/skills/bfl-api/references/code-examples/python-client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (94%)
-- INFERRED: 8 (6%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

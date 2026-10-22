@@ -14,7 +14,7 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
+- [Tool Testing](Tool_Testing.md) (1 shared connections)
 
 ## Source Files
 

@@ -17,12 +17,12 @@
 
 ## Relationships
 
-- [Wan Video Tests](Wan_Video_Tests.md) (3 shared connections)
-- [Wan Pipeline Validation Tests](Wan_Pipeline_Validation_Tests.md) (1 shared connections)
-- [Scene Pacing Verification](Scene_Pacing_Verification.md) (1 shared connections)
-- [Segment Cost Planning Tests](Segment_Cost_Planning_Tests.md) (1 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
-- [Wan Video Engine](Wan_Video_Engine.md) (1 shared connections)
+- [Wan Video Testing](Wan_Video_Testing.md) (3 shared connections)
+- [WAN Model Validation](WAN_Model_Validation.md) (1 shared connections)
+- [Hexagon Cube Visualization](Hexagon_Cube_Visualization.md) (1 shared connections)
+- [Tool Execution Cost Model](Tool_Execution_Cost_Model.md) (1 shared connections)
+- [Tool Testing](Tool_Testing.md) (1 shared connections)
+- [WAN Engine](WAN_Engine.md) (1 shared connections)
 
 ## Source Files
 

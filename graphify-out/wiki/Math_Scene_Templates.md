@@ -31,8 +31,8 @@
 
 ## Relationships
 
-- [Environment Loader](Environment_Loader.md) (1 shared connections)
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Audio Mixing](Audio_Mixing.md) (1 shared connections)
+- [Manim 3D](Manim_3D.md) (1 shared connections)
 
 ## Source Files
 

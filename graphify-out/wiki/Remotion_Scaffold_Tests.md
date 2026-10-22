@@ -14,7 +14,7 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
+- [Tool Contracts](Tool_Contracts.md) (1 shared connections)
 
 ## Source Files
 

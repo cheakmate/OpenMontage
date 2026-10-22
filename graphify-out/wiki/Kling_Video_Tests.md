@@ -1,18 +1,18 @@
 # Kling Video Tests
 
-> 44 nodes · cohesion 0.12
+> 46 nodes · cohesion 0.10
 
 ## Key Concepts
 
 - **KlingOfficialVideo** (53 connections) — `tools/video/kling_official_video.py`
 - **test_kling_official_video.py** (26 connections) — `tests/contracts/test_kling_official_video.py`
 - **Any** (23 connections)
-- **.execute()** (17 connections) — `tools/video/kling_official_video.py`
+- **normalize_element_list()** (14 connections) — `tools/_kling/elements.py`
 - **._build_request()** (14 connections) — `tools/video/kling_official_video.py`
 - **._build_classic_request()** (10 connections) — `tools/video/kling_official_video.py`
+- **._download_videos()** (10 connections) — `tools/video/kling_official_video.py`
 - **._build_omni_payload()** (9 connections) — `tools/video/kling_official_video.py`
 - **test_execute_downloads_video_and_returns_artifact()** (5 connections) — `tests/contracts/test_kling_official_video.py`
-- **._account_usage_result()** (5 connections) — `tools/video/kling_official_video.py`
 - **._build_turbo_request()** (5 connections) — `tools/video/kling_official_video.py`
 - **._copy_common_task_fields()** (5 connections) — `tools/video/kling_official_video.py`
 - **.estimate_cost()** (5 connections) — `tools/video/kling_official_video.py`
@@ -29,31 +29,32 @@
 - **._options_payload()** (4 connections) — `tools/video/kling_official_video.py`
 - **._output_url()** (4 connections) — `tools/video/kling_official_video.py`
 - **._reference_metadata_from_classic_payload()** (4 connections) — `tools/video/kling_official_video.py`
-- *... and 19 more nodes in this community*
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Kling Client Tests](Kling_Client_Tests.md) (31 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (9 shared connections)
-- [Tool Registry Discovery](Tool_Registry_Discovery.md) (3 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (3 shared connections)
-- [Omni Video Download Tests](Omni_Video_Download_Tests.md) (2 shared connections)
-- [BMTS Lite Tests](BMTS_Lite_Tests.md) (2 shared connections)
-- [Kling Image Provider Tests](Kling_Image_Provider_Tests.md) (1 shared connections)
-- [Idempotency Cache Wrapper](Idempotency_Cache_Wrapper.md) (1 shared connections)
-- [CogVideo Variant Tests](CogVideo_Variant_Tests.md) (1 shared connections)
-- [TTS Provider Tests](TTS_Provider_Tests.md) (1 shared connections)
-- [Lyria BGM Generator](Lyria_BGM_Generator.md) (1 shared connections)
+- [API Testing](API_Testing.md) (16 shared connections)
+- [Kling Tools](Kling_Tools.md) (13 shared connections)
+- [Kling Core Tests](Kling_Core_Tests.md) (10 shared connections)
+- [Core Utilities](Core_Utilities.md) (6 shared connections)
+- [Tool Testing](Tool_Testing.md) (4 shared connections)
+- [Atlas Tool Tests](Atlas_Tool_Tests.md) (3 shared connections)
+- [Kling Image Tests](Kling_Image_Tests.md) (3 shared connections)
+- [Character Animation](Character_Animation.md) (2 shared connections)
+- [Kling Avatar Tool](Kling_Avatar_Tool.md) (2 shared connections)
+- [Kling TTS Provider Tests](Kling_TTS_Provider_Tests.md) (1 shared connections)
+- [Lyria BGM Generation](Lyria_BGM_Generation.md) (1 shared connections)
 
 ## Source Files
 
 - `tests/contracts/test_kling_official_video.py`
+- `tools/_kling/elements.py`
 - `tools/video/kling_official_video.py`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (84%)
-- INFERRED: 26 (16%)
+- EXTRACTED: 146 (86%)
+- INFERRED: 23 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

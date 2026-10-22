@@ -13,8 +13,10 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (11 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (2 shared connections)
+- [Tool Testing](Tool_Testing.md) (5 shared connections)
+- [Core Utilities](Core_Utilities.md) (4 shared connections)
+- [Tool Execution](Tool_Execution.md) (2 shared connections)
+- [Character Animation](Character_Animation.md) (2 shared connections)
 
 ## Source Files
 

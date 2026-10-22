@@ -1,37 +1,36 @@
 # Multi-Head Attention Visualization
 
-> 15 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **.agents/skills/manimgl-best-practices/examples/multi_head_attention.py** (7 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **AttentionPatternGrid** (6 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **MultiHeadedAttention** (4 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **SimpleMultiHead** (4 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **softmax()** (3 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **.__init__()** (2 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **.construct()** (2 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **.construct()** (2 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **InteractiveScene** (2 connections)
+- **.claude/skills/manimgl-best-practices/examples/basic_multihead.py** (7 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **AttentionGrid** (6 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **MultiHead3D** (4 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **MultiHeadBasic** (4 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **.__init__()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **.construct()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **.construct()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **softmax()** (2 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **Scene** (2 connections)
 - **VGroup** (1 connections)
-- **Multi-Head Attention Visualization - Native ManimGL This is the proper ManimGL…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **Numerically stable softmax.** (1 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **Simpler version for quick testing.** (1 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **A grid showing attention pattern with dots.** (1 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
-- **Multi-Head Attention visualization in native ManimGL. Shows multiple attention…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
+- **Basic Multi-Head Attention - ManimGL (using Scene, not InteractiveScene) Run…** (1 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **3D multi-head visualization using Scene (simpler).** (1 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **Attention pattern grid.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
+- **Basic multi-head attention visualization.** (1 connections) — `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
 
 ## Relationships
 
-- [Audio FFT Extraction](Audio_FFT_Extraction.md) (1 shared connections)
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Audio Analysis](Audio_Analysis.md) (1 shared connections)
+- [Manim 3D](Manim_3D.md) (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/manimgl-best-practices/examples/multi_head_attention.py`
+- `.claude/skills/manimgl-best-practices/examples/basic_multihead.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

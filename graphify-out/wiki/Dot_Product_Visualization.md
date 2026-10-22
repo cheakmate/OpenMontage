@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **DotProductVisualization** (4 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
-- **.construct()** (3 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
-- **.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py** (3 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
-- **dual_rotate()** (1 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
-- **get_dot_product()** (1 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **DotProductVisualization** (4 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **.construct()** (3 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py** (3 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **dual_rotate()** (1 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **get_dot_product()** (1 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
 - **InteractiveScene** (1 connections)
-- **Dot Product Visualization Interactive demonstration of how dot products work…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
-- **Shows dot product calculation between two vectors in 2D. The result updates…** (1 connections) — `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **Dot Product Visualization Interactive demonstration of how dot products work…** (1 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- **Shows dot product calculation between two vectors in 2D. The result updates…** (1 connections) — `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
 
 ## Relationships
 
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Manim 3D](Manim_3D.md) (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/manimgl-best-practices/examples/dot_product_visualization.py`
+- `.claude/skills/manimgl-best-practices/examples/dot_product_visualization.py`
 
 ## Audit Trail
 

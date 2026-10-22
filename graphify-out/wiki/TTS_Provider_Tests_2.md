@@ -1,70 +1,53 @@
 # TTS Provider Tests
 
-> 75 nodes · cohesion 0.06
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **base64** (40 connections)
-- **PriceQuoteRequired** (38 connections) — `tools/provider_pricing.py`
-- **fal_media.py** (31 connections) — `tools/fal_media.py`
-- **schema_media.py** (31 connections) — `tools/schema_media.py`
-- **FalMedia** (28 connections) — `tools/fal_media.py`
-- **SchemaMedia** (27 connections) — `tools/schema_media.py`
-- **heygen_avatar.py** (22 connections) — `tools/avatar/heygen_avatar.py`
-- **urllib_parse** (20 connections)
-- **gemini_tts.py** (19 connections) — `tools/audio/gemini_tts.py`
-- **request_json()** (18 connections) — `tools/provider_jobs.py`
-- **ideogram_image.py** (17 connections) — `tools/graphics/ideogram_image.py`
-- **GeminiTTS** (16 connections) — `tools/audio/gemini_tts.py`
-- **HeyGenAvatar** (16 connections) — `tools/avatar/heygen_avatar.py`
-- **provider_jobs.py** (16 connections) — `tools/provider_jobs.py`
-- **requests** (15 connections)
-- **cartesia_tts.py** (14 connections) — `tools/audio/cartesia_tts.py`
-- **inworld_tts.py** (14 connections) — `tools/audio/inworld_tts.py`
-- **provider_pricing.py** (13 connections) — `tools/provider_pricing.py`
-- **CartesiaTTS** (12 connections) — `tools/audio/cartesia_tts.py`
-- **download()** (12 connections) — `tools/provider_jobs.py`
-- **IdeogramImage** (10 connections) — `tools/graphics/ideogram_image.py`
-- **save_job()** (10 connections) — `tools/provider_jobs.py`
-- **InworldTTS** (9 connections) — `tools/audio/inworld_tts.py`
-- **.execute()** (8 connections) — `tools/avatar/heygen_avatar.py`
-- **.execute()** (8 connections) — `tools/fal_media.py`
-- *... and 50 more nodes in this community*
+- **OpenAITTS** (24 connections) — `tools/audio/openai_tts.py`
+- **CompositionValidator** (16 connections) — `tools/analysis/composition_validator.py`
+- **probe_duration()** (16 connections) — `tools/analysis/audio_probe.py`
+- **._generate()** (6 connections) — `tools/audio/openai_tts.py`
+- **test_tts_provider_contracts_match_supported_fields()** (5 connections) — `tests/tools/test_hyperframes_compose.py`
+- **.execute()** (5 connections) — `tools/analysis/composition_validator.py`
+- **.execute()** (5 connections) — `tools/audio/openai_tts.py`
+- **._result()** (3 connections) — `tools/analysis/composition_validator.py`
+- **.estimate_cost()** (3 connections) — `tools/audio/openai_tts.py`
+- **._supports_instructions()** (3 connections) — `tools/audio/openai_tts.py`
+- **Any** (3 connections)
+- **.estimate_cost()** (2 connections) — `tools/analysis/composition_validator.py`
+- **.get_status()** (2 connections) — `tools/analysis/composition_validator.py`
+- **.get_status()** (2 connections) — `tools/audio/openai_tts.py`
+- **Any** (2 connections)
+- **Path** (1 connections)
+- **Quick helper: return duration in seconds, or None on failure. Use this from…** (1 connections) — `tools/analysis/audio_probe.py`
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (157 shared connections)
-- [Provider Contract Tests](Provider_Contract_Tests.md) (40 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (21 shared connections)
-- [Kling Client Tests](Kling_Client_Tests.md) (9 shared connections)
-- [Atlas Image Routing Tests](Atlas_Image_Routing_Tests.md) (6 shared connections)
-- [Grok Media Tools](Grok_Media_Tools.md) (5 shared connections)
-- [Gemini Omni Video Tests](Gemini_Omni_Video_Tests.md) (5 shared connections)
-- [ElevenLabs TTS Timestamps](ElevenLabs_TTS_Timestamps.md) (3 shared connections)
-- [ElevenLabs TTS Tests](ElevenLabs_TTS_Tests.md) (3 shared connections)
-- [Google Imagen Tests](Google_Imagen_Tests.md) (3 shared connections)
-- [Google TTS Tests](Google_TTS_Tests.md) (2 shared connections)
-- [Google Music Tests](Google_Music_Tests.md) (2 shared connections)
+- [Core Utilities](Core_Utilities.md) (13 shared connections)
+- [Tool Testing](Tool_Testing.md) (11 shared connections)
+- [Character Animation](Character_Animation.md) (6 shared connections)
+- [Style Bridge](Style_Bridge.md) (4 shared connections)
+- [Tool Execution](Tool_Execution.md) (4 shared connections)
+- [Tool Registry](Tool_Registry.md) (3 shared connections)
+- [Tool Contracts](Tool_Contracts.md) (2 shared connections)
+- [ElevenLabs TTS Testing](ElevenLabs_TTS_Testing.md) (2 shared connections)
+- [Tool Registry Testing](Tool_Registry_Testing.md) (1 shared connections)
+- [Audio Mixing](Audio_Mixing.md) (1 shared connections)
+- [Piper TTS Fallback](Piper_TTS_Fallback.md) (1 shared connections)
+- [Doubao TTS Provider](Doubao_TTS_Provider.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/tools/test_provider_refresh.py`
-- `tools/audio/cartesia_tts.py`
-- `tools/audio/gemini_tts.py`
-- `tools/audio/inworld_tts.py`
-- `tools/avatar/heygen_avatar.py`
-- `tools/fal_media.py`
-- `tools/graphics/ideogram_image.py`
-- `tools/graphics/openai_fal_image.py`
-- `tools/provider_jobs.py`
-- `tools/provider_pricing.py`
-- `tools/schema_media.py`
-- `tools/video/wan_fal_video.py`
+- `tests/tools/test_hyperframes_compose.py`
+- `tools/analysis/audio_probe.py`
+- `tools/analysis/composition_validator.py`
+- `tools/audio/openai_tts.py`
 
 ## Audit Trail
 
-- EXTRACTED: 376 (86%)
-- INFERRED: 61 (14%)
+- EXTRACTED: 53 (71%)
+- INFERRED: 22 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,10 +1,11 @@
 # Video Trimmer Tests
 
-> 16 nodes · cohesion 0.24
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
 - **VideoTrimmer** (23 connections) — `tools/video/video_trimmer.py`
+- **TestPhase1ErrorHandling** (11 connections) — `tests/contracts/test_phase1_contracts.py`
 - **.execute()** (10 connections) — `tools/video/video_trimmer.py`
 - **test_video_trimmer_workspaces.py** (8 connections) — `tests/tools/test_video_trimmer_workspaces.py`
 - **._speed()** (6 connections) — `tools/video/video_trimmer.py`
@@ -23,12 +24,15 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (12 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (5 shared connections)
-- [Video Review Tooling](Video_Review_Tooling.md) (3 shared connections)
-- [Frame Sampler Tests](Frame_Sampler_Tests.md) (2 shared connections)
-- [Tool Status Reporting](Tool_Status_Reporting.md) (1 shared connections)
-- [Tool Dependency Tests](Tool_Dependency_Tests.md) (1 shared connections)
+- [Core Utilities](Core_Utilities.md) (10 shared connections)
+- [Character Animation](Character_Animation.md) (5 shared connections)
+- [Tool Status Checks](Tool_Status_Checks.md) (4 shared connections)
+- [Tool Testing](Tool_Testing.md) (3 shared connections)
+- [FFmpeg Tests](FFmpeg_Tests.md) (3 shared connections)
+- [Audio Mixer Tests](Audio_Mixer_Tests.md) (2 shared connections)
+- [Video Composition](Video_Composition.md) (2 shared connections)
+- [Frame Sampler Tests](Frame_Sampler_Tests.md) (1 shared connections)
+- [Visual Evaluation System](Visual_Evaluation_System.md) (1 shared connections)
 
 ## Source Files
 
@@ -38,8 +42,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 37 (70%)
-- INFERRED: 16 (30%)
+- EXTRACTED: 42 (68%)
+- INFERRED: 20 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -14,8 +14,8 @@
 
 ## Relationships
 
-- [Remotion Scene Components](Remotion_Scene_Components.md) (5 shared connections)
-- [Remotion Title Card](Remotion_Title_Card.md) (1 shared connections)
+- [UI Components](UI_Components.md) (5 shared connections)
+- [Remotion Assets](Remotion_Assets.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,16 +1,16 @@
 # Pipeline Loader
 
-> 70 nodes · cohesion 0.05
+> 72 nodes · cohesion 0.05
 
 ## Key Concepts
 
+- **test_phase0_contracts.py** (57 connections) — `tests/contracts/test_phase0_contracts.py`
 - **load_pipeline()** (45 connections) — `lib/pipeline_loader.py`
 - **pipeline_loader.py** (34 connections) — `lib/pipeline_loader.py`
 - **get_stage_order()** (19 connections) — `lib/pipeline_loader.py`
 - **get_required_tools()** (12 connections) — `lib/pipeline_loader.py`
 - **list_pipelines()** (11 connections) — `lib/pipeline_loader.py`
 - **TestAnimatedExplainerManifest** (8 connections) — `tests/contracts/test_phase3_contracts.py`
-- **load_pipeline_readonly()** (8 connections) — `lib/pipeline_loader.py`
 - **TestTalkingHeadManifest** (7 connections) — `tests/contracts/test_phase1_contracts.py`
 - **get_stage_review_focus()** (7 connections) — `lib/pipeline_loader.py`
 - **get_stage_skill()** (7 connections) — `lib/pipeline_loader.py`
@@ -28,22 +28,23 @@
 - **test_character_animation_manifest_contract()** (4 connections) — `tests/contracts/test_character_animation_pipeline.py`
 - **.test_framework_smoke_manifest_loads()** (4 connections) — `tests/contracts/test_phase0_contracts.py`
 - **test_pipeline_manifest_categories.py** (4 connections) — `tests/contracts/test_pipeline_manifest_categories.py`
-- **check_extension_permitted()** (3 connections) — `lib/pipeline_loader.py`
-- *... and 45 more nodes in this community*
+- **TestAgentContextFiles** (3 connections) — `tests/contracts/test_phase0_contracts.py`
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Artifact Schema Validation](Artifact_Schema_Validation.md) (18 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (18 shared connections)
-- [Playbook Generation](Playbook_Generation.md) (7 shared connections)
-- [Pipeline Checkpointing](Pipeline_Checkpointing.md) (6 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (5 shared connections)
-- [Backlot Screenshot Capture](Backlot_Screenshot_Capture.md) (5 shared connections)
-- [Kling Explainer E2E](Kling_Explainer_E2E.md) (3 shared connections)
+- [Core Utilities](Core_Utilities.md) (14 shared connections)
+- [Pipeline Checkpoints](Pipeline_Checkpoints.md) (14 shared connections)
+- [Media Review](Media_Review.md) (12 shared connections)
+- [Tool Contracts](Tool_Contracts.md) (8 shared connections)
+- [Configuration Models](Configuration_Models.md) (8 shared connections)
+- [Playbook Generator](Playbook_Generator.md) (7 shared connections)
+- [Character Animation](Character_Animation.md) (6 shared connections)
+- [UI Bug Bash Tests](UI_Bug_Bash_Tests.md) (6 shared connections)
+- [Media Profile Manager](Media_Profile_Manager.md) (4 shared connections)
+- [Kling Video Tool Tests](Kling_Video_Tool_Tests.md) (3 shared connections)
 - [BMTS Lite Tests](BMTS_Lite_Tests.md) (3 shared connections)
-- [Storyboard State Management](Storyboard_State_Management.md) (2 shared connections)
-- [Playbook Loading Tests](Playbook_Loading_Tests.md) (1 shared connections)
-- [Event Logging](Event_Logging.md) (1 shared connections)
+- [Event Stream](Event_Stream.md) (3 shared connections)
 
 ## Source Files
 
@@ -54,11 +55,10 @@
 - `tests/contracts/test_phase1_golden.py`
 - `tests/contracts/test_phase3_contracts.py`
 - `tests/contracts/test_pipeline_manifest_categories.py`
-- `tests/tools/test_bmts_lite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 190 (100%)
+- EXTRACTED: 233 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

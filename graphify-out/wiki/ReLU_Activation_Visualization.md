@@ -26,7 +26,7 @@
 
 ## Relationships
 
-- [Manim ML Examples](Manim_ML_Examples.md) (2 shared connections)
+- [Manim 3D](Manim_3D.md) (2 shared connections)
 
 ## Source Files
 

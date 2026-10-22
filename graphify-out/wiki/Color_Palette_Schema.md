@@ -18,7 +18,7 @@
 
 ## Relationships
 
-- [Style Profile Schema](Style_Profile_Schema.md) (1 shared connections)
+- [Media Properties Schema](Media_Properties_Schema.md) (1 shared connections)
 
 ## Source Files
 

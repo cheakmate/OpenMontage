@@ -1,11 +1,9 @@
 # Frame Sampler Tests
 
-> 15 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **FrameSampler** (22 connections) — `tools/analysis/frame_sampler.py`
-- **TestPhase1ErrorHandling** (11 connections) — `tests/contracts/test_phase1_contracts.py`
 - **.execute()** (9 connections) — `tools/analysis/frame_sampler.py`
 - **._extract_count()** (7 connections) — `tools/analysis/frame_sampler.py`
 - **._extract_scene_guided()** (6 connections) — `tools/analysis/frame_sampler.py`
@@ -22,13 +20,10 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (10 shared connections)
-- [Tool Status Reporting](Tool_Status_Reporting.md) (6 shared connections)
-- [Video Review Tooling](Video_Review_Tooling.md) (4 shared connections)
-- [Video Trimmer Tests](Video_Trimmer_Tests.md) (2 shared connections)
-- [Audio Mixer Tests](Audio_Mixer_Tests.md) (2 shared connections)
-- [Cinematic Remotion Adapter](Cinematic_Remotion_Adapter.md) (2 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (2 shared connections)
+- [Tool Status Checks](Tool_Status_Checks.md) (9 shared connections)
+- [FFmpeg Tests](FFmpeg_Tests.md) (4 shared connections)
+- [Video Trimmer Tests](Video_Trimmer_Tests.md) (1 shared connections)
+- [Character Animation](Character_Animation.md) (1 shared connections)
 
 ## Source Files
 
@@ -37,8 +32,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 43 (74%)
-- INFERRED: 15 (26%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

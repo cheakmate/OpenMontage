@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **dependencies** (5 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
-- **react** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
-- **react-dom** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
-- **remotion** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
-- **@remotion/cli** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
+- **dependencies** (5 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
+- **react** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
+- **react-dom** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
+- **remotion** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
+- **@remotion/cli** (1 connections) — `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
 
 ## Relationships
 
-- [Multi-Scene Package](Multi-Scene_Package.md) (1 shared connections)
+- [Remotion Package Config](Remotion_Package_Config.md) (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/remotion-src/package.json`
+- `.agents/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/remotion-src/package.json`
 
 ## Audit Trail
 

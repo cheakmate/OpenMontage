@@ -1,48 +1,58 @@
 # TTS Provider Tests
 
-> 13 nodes · cohesion 0.24
+> 76 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **OpenAITTS** (24 connections) — `tools/audio/openai_tts.py`
-- **TestCapabilityMetadata** (9 connections) — `tests/contracts/test_phase3_contracts.py`
-- **.test_provider_specific_tts_tools_register()** (9 connections) — `tests/contracts/test_phase3_contracts.py`
-- **._generate()** (6 connections) — `tools/audio/openai_tts.py`
-- **test_tts_provider_contracts_match_supported_fields()** (5 connections) — `tests/tools/test_hyperframes_compose.py`
-- **.execute()** (5 connections) — `tools/audio/openai_tts.py`
-- **.get_by_provider()** (4 connections) — `tools/tool_registry.py`
-- **.estimate_cost()** (3 connections) — `tools/audio/openai_tts.py`
-- **._supports_instructions()** (3 connections) — `tools/audio/openai_tts.py`
-- **Any** (3 connections)
-- **.test_tts_tools_expose_capability_provider_and_location()** (2 connections) — `tests/contracts/test_phase3_contracts.py`
-- **.get_status()** (2 connections) — `tools/audio/openai_tts.py`
-- **Get all tools backed by a specific provider.** (1 connections) — `tools/tool_registry.py`
+- **HunyuanImage** (61 connections) — `tools/graphics/hunyuan_image.py`
+- **test_hunyuan_image.py** (46 connections) — `tests/tools/test_hunyuan_image.py`
+- **._build_payload()** (11 connections) — `tools/graphics/hunyuan_image.py`
+- **._generate()** (9 connections) — `tools/graphics/hunyuan_image.py`
+- **test_execute_full_flow_with_mocked_api()** (8 connections) — `tests/tools/test_hunyuan_image.py`
+- **._check_response()** (8 connections) — `tools/graphics/hunyuan_image.py`
+- **._resolve_images()** (8 connections) — `tools/graphics/hunyuan_image.py`
+- **Any** (8 connections)
+- **._json_or_raise()** (7 connections) — `tools/graphics/hunyuan_image.py`
+- **._submit_task()** (7 connections) — `tools/graphics/hunyuan_image.py`
+- **test_image_selector_maps_shared_reference_input()** (6 connections) — `tests/tools/test_hunyuan_image.py`
+- **.execute()** (6 connections) — `tools/graphics/hunyuan_image.py`
+- **._poll_task()** (6 connections) — `tools/graphics/hunyuan_image.py`
+- **._resolve_output_paths()** (6 connections) — `tools/graphics/hunyuan_image.py`
+- **._safe_error()** (6 connections) — `tools/graphics/hunyuan_image.py`
+- **._auth_headers()** (5 connections) — `tools/graphics/hunyuan_image.py`
+- **.estimate_cost()** (5 connections) — `tools/graphics/hunyuan_image.py`
+- **test_execute_with_local_reference_images()** (4 connections) — `tests/tools/test_hunyuan_image.py`
+- **test_json_or_raise_parses_valid_json()** (4 connections) — `tests/tools/test_hunyuan_image.py`
+- **test_json_or_raise_raises_on_invalid_json()** (4 connections) — `tests/tools/test_hunyuan_image.py`
+- **.estimate_runtime()** (4 connections) — `tools/graphics/hunyuan_image.py`
+- **test_api_key_filters_comment_like_values()** (3 connections) — `tests/tools/test_hunyuan_image.py`
+- **test_auth_headers()** (3 connections) — `tests/tools/test_hunyuan_image.py`
+- **test_build_payload_all_params()** (3 connections) — `tests/tools/test_hunyuan_image.py`
+- **test_build_payload_logo_param_skips_empty()** (3 connections) — `tests/tools/test_hunyuan_image.py`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (14 shared connections)
-- [ElevenLabs TTS Timestamps](ElevenLabs_TTS_Timestamps.md) (4 shared connections)
-- [Piper TTS Tests](Piper_TTS_Tests.md) (4 shared connections)
-- [ComfyUI Setup Registry](ComfyUI_Setup_Registry.md) (3 shared connections)
-- [Tool Registry Discovery Tests](Tool_Registry_Discovery_Tests.md) (3 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (3 shared connections)
-- [TTS Provider Selector](TTS_Provider_Selector.md) (2 shared connections)
-- [HyperFrames Runtime Tests](HyperFrames_Runtime_Tests.md) (2 shared connections)
-- [Tool Registry Discovery](Tool_Registry_Discovery.md) (1 shared connections)
-- [Google TTS Tests](Google_TTS_Tests.md) (1 shared connections)
-- [Composition Validator](Composition_Validator.md) (1 shared connections)
+- [Core Utilities](Core_Utilities.md) (7 shared connections)
+- [Tool Execution](Tool_Execution.md) (6 shared connections)
+- [Character Animation](Character_Animation.md) (6 shared connections)
+- [Tool Testing](Tool_Testing.md) (5 shared connections)
+- [Image Selector](Image_Selector.md) (3 shared connections)
+- [Project Init](Project_Init.md) (1 shared connections)
+- [Tool Registry](Tool_Registry.md) (1 shared connections)
+- [Lyria BGM Generation](Lyria_BGM_Generation.md) (1 shared connections)
+- [Visual Evaluation System](Visual_Evaluation_System.md) (1 shared connections)
+- [Atlas Tool Tests](Atlas_Tool_Tests.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/contracts/test_phase3_contracts.py`
-- `tests/tools/test_hyperframes_compose.py`
-- `tools/audio/openai_tts.py`
-- `tools/tool_registry.py`
+- `tests/tools/test_hunyuan_image.py`
+- `tools/graphics/hunyuan_image.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (63%)
-- INFERRED: 21 (37%)
+- EXTRACTED: 147 (79%)
+- INFERRED: 39 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

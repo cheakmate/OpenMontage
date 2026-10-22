@@ -12,7 +12,7 @@
 
 ## Relationships
 
-- [Atlas Video Provider Tests](Atlas_Video_Provider_Tests.md) (1 shared connections)
+- [Atlas Video Tests](Atlas_Video_Tests.md) (1 shared connections)
 
 ## Source Files
 

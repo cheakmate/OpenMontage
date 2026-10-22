@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **mocap/clips.js** (0 connections) — `ink-theater/mocap/clips.js`
+- **mocap-figure/clips.js** (0 connections) — `ink-theater/examples/mocap-figure/clips.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `ink-theater/mocap/clips.js`
+- `ink-theater/examples/mocap-figure/clips.js`
 
 ## Audit Trail
 

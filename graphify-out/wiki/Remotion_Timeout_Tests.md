@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [Lyria BGM Generator](Lyria_BGM_Generator.md) (4 shared connections)
-- [Cinematic Remotion Adapter](Cinematic_Remotion_Adapter.md) (4 shared connections)
+- [Character Animation](Character_Animation.md) (4 shared connections)
+- [Video Composition](Video_Composition.md) (4 shared connections)
 
 ## Source Files
 

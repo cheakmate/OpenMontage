@@ -2,7 +2,7 @@
 
 > God node · 160 connections · `tools/base_tool.py`
 
-**Community:** [Tool Base Runtime](Tool_Base_Runtime.md)
+**Community:** [Tool Testing](Tool_Testing.md)
 
 ## Connections by Relation
 

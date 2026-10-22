@@ -12,8 +12,8 @@
 
 ## Relationships
 
-- [DashScope Image Payload](DashScope_Image_Payload.md) (1 shared connections)
-- [DashScope Multi-Output Tests](DashScope_Multi-Output_Tests.md) (1 shared connections)
+- [DashScope API Testing](DashScope_API_Testing.md) (1 shared connections)
+- [Multi-Output Testing](Multi-Output_Testing.md) (1 shared connections)
 
 ## Source Files
 

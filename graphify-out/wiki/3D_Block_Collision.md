@@ -30,8 +30,8 @@
 
 ## Relationships
 
-- [Scene Pacing Verification](Scene_Pacing_Verification.md) (1 shared connections)
-- [Manim ML Examples](Manim_ML_Examples.md) (1 shared connections)
+- [Hexagon Cube Visualization](Hexagon_Cube_Visualization.md) (1 shared connections)
+- [Manim 3D](Manim_3D.md) (1 shared connections)
 
 ## Source Files
 

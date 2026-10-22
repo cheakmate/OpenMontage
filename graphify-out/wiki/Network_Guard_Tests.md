@@ -1,43 +1,42 @@
 # Network Guard Tests
 
-> 16 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **test_network_guard.py** (10 connections) — `tests/test_network_guard.py`
-- **TestPaidToolsCannotSpend** (6 connections) — `tests/test_network_guard.py`
-- **TestGuardBlocksOutbound** (5 connections) — `tests/test_network_guard.py`
-- **socket** (3 connections)
-- **TestLiveApiMarkerIsSkipped** (2 connections) — `tests/test_network_guard.py`
-- **.test_loopback_still_permitted()** (2 connections) — `tests/test_network_guard.py`
-- **.test_this_should_never_run_by_default()** (2 connections) — `tests/test_network_guard.py`
-- **.test_atlas_image_fails_instead_of_billing()** (2 connections) — `tests/test_network_guard.py`
-- **.test_atlas_video_fails_instead_of_billing()** (2 connections) — `tests/test_network_guard.py`
-- **.test_create_connection_is_blocked()** (1 connections) — `tests/test_network_guard.py`
-- **.test_raw_socket_connect_is_blocked()** (1 connections) — `tests/test_network_guard.py`
-- **.test_requests_cannot_reach_a_provider()** (1 connections) — `tests/test_network_guard.py`
-- **live_api** (1 connections)
-- **Meta-tests: prove the session network guard actually blocks paid calls. If…** (1 connections) — `tests/test_network_guard.py`
-- **Local servers and fixtures must keep working.** (1 connections) — `tests/test_network_guard.py`
-- **The guard must hold even with a real key present in the environment.** (1 connections) — `tests/test_network_guard.py`
+- **tests/conftest.py** (11 connections) — `tests/conftest.py`
+- **_block_network()** (7 connections) — `tests/conftest.py`
+- **_blocked()** (5 connections) — `tests/conftest.py`
+- **_is_loopback()** (5 connections) — `tests/conftest.py`
+- **NetworkCallInTestError** (4 connections) — `tests/conftest.py`
+- **guarded_connect()** (3 connections) — `tests/conftest.py`
+- **guarded_connect_ex()** (3 connections) — `tests/conftest.py`
+- **guarded_create_connection()** (3 connections) — `tests/conftest.py`
+- **_network_allowed()** (3 connections) — `tests/conftest.py`
+- **pytest_collection_modifyitems()** (3 connections) — `tests/conftest.py`
+- **pytest_configure()** (1 connections) — `tests/conftest.py`
+- **fixture** (1 connections)
+- **RuntimeError** (1 connections)
+- **Session-wide test safety net. **No test may open a network connection.**…** (1 connections) — `tests/conftest.py`
+- **Skip live_api tests unless the operator explicitly opted in.** (1 connections) — `tests/conftest.py`
+- **Raised when a test tries to open a non-loopback connection.** (1 connections) — `tests/conftest.py`
+- **True for loopback TCP/UDP targets and for AF_UNIX socket paths.** (1 connections) — `tests/conftest.py`
+- **Refuse non-loopback sockets for the entire session.** (1 connections) — `tests/conftest.py`
 
 ## Relationships
 
-- [Atlas Image Routes](Atlas_Image_Routes.md) (3 shared connections)
-- [Atlas Video Provider Tests](Atlas_Video_Provider_Tests.md) (3 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (2 shared connections)
-- [Project Init Validation](Project_Init_Validation.md) (1 shared connections)
-- [Test Network Guard](Test_Network_Guard.md) (1 shared connections)
-- [Kling Client Tests](Kling_Client_Tests.md) (1 shared connections)
+- [Tool Testing](Tool_Testing.md) (1 shared connections)
+- [Live API Tests](Live_API_Tests.md) (1 shared connections)
+- [Project Init](Project_Init.md) (1 shared connections)
 
 ## Source Files
 
-- `tests/test_network_guard.py`
+- `tests/conftest.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

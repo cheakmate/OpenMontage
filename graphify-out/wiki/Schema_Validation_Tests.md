@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [Tool Contract Tests](Tool_Contract_Tests.md) (10 shared connections)
-- [Tool Base Runtime](Tool_Base_Runtime.md) (1 shared connections)
+- [Test Contract Validation](Test_Contract_Validation.md) (10 shared connections)
+- [Tool Testing](Tool_Testing.md) (1 shared connections)
 
 ## Source Files
 

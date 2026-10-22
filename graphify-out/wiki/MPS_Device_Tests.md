@@ -33,14 +33,15 @@
 
 ## Relationships
 
-- [Tool Base Runtime](Tool_Base_Runtime.md) (15 shared connections)
-- [CogVideo Variant Tests](CogVideo_Variant_Tests.md) (4 shared connections)
-- [Character Animation Tests](Character_Animation_Tests.md) (3 shared connections)
-- [Video Review Tooling](Video_Review_Tooling.md) (2 shared connections)
-- [Wan Video Engine](Wan_Video_Engine.md) (2 shared connections)
-- [Project Init Validation](Project_Init_Validation.md) (1 shared connections)
-- [Lyria BGM Generator](Lyria_BGM_Generator.md) (1 shared connections)
-- [Tool Dependency Tests](Tool_Dependency_Tests.md) (1 shared connections)
+- [Tool Testing](Tool_Testing.md) (9 shared connections)
+- [Core Utilities](Core_Utilities.md) (7 shared connections)
+- [Tool Execution](Tool_Execution.md) (3 shared connections)
+- [Character Animation](Character_Animation.md) (3 shared connections)
+- [FFmpeg Tests](FFmpeg_Tests.md) (2 shared connections)
+- [WAN Engine](WAN_Engine.md) (2 shared connections)
+- [Project Init](Project_Init.md) (1 shared connections)
+- [Lyria BGM Generation](Lyria_BGM_Generation.md) (1 shared connections)
+- [Visual Evaluation System](Visual_Evaluation_System.md) (1 shared connections)
 
 ## Source Files
 

@@ -2,7 +2,7 @@
 
 > God node · 540 connections · `tools/base_tool.py`
 
-**Community:** [Character Animation Tests](Character_Animation_Tests.md)
+**Community:** [Character Animation](Character_Animation.md)
 
 ## Connections by Relation
 
